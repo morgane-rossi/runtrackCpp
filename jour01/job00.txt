@@ -1,0 +1,4 @@
+a = x + 5
+a = (x=y) + 2   // erreur de syntaxe
+
+
