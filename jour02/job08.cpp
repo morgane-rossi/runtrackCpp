@@ -1,18 +1,16 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int a, b, i ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> a ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> b ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> a ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> b ;
     i = a ;
     while (i <= b)
     {
-        cout << i << endl ;
+        std::cout << i << std::endl ;
         i++ ;
     }
 

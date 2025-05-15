@@ -1,14 +1,11 @@
-
 #include <iostream>
 #include <cmath>
-
-using namespace std;
 
 int main()
 {
     int n ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> n ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> n ;
     double somme = 0 ;
     int i = 0 ;
     double j = 1 ;
@@ -18,7 +15,7 @@ int main()
         i++ ;
         j ++ ;
     }
-    cout << somme << endl ;
+    std::cout << somme << std::endl ;
 
    return 0;
 }

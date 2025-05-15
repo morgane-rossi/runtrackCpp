@@ -1,23 +1,21 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int a, b, n ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> a ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> b ;
-    cout << "Saisissez n\n";
-    cin >> n ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> a ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> b ;
+    std::cout << "Saisissez n\n";
+    std::cin >> n ;
     if ((a < b && n >= a && n <=b) || (a > b && n <= a && n >= b))
     {
-        cout << "GAGNE\n";
+        std::cout << "GAGNE\n";
     }
     else
     {
-        cout << "PERDU\n";
+        std::cout << "PERDU\n";
     }
    return 0;
 }

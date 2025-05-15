@@ -1,8 +1,4 @@
-
 #include <iostream>
-#include <cmath>
-
-using namespace std;
 
 int fibonacci(int n)
 {
@@ -28,10 +24,10 @@ int fibonacci(int n)
 
 int main()
 {
-    cout << "Saisissez un nombre entier\n" ;
+    std::cout << "Saisissez un nombre entier\n" ;
     int n ;
-    cin >> n ;
-    cout << fibonacci(n) << endl ;
+    std::cin >> n ;
+    std::cout << fibonacci(n) << std::endl ;
 
    return 0;
 }

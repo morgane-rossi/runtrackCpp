@@ -1,18 +1,16 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     double result = 0 ;
     double first, second ;
-    string symbol ;
-    cout << "Premier nombre ?\n";
-    cin >> first ;
-    cout << "Symbole : + ; - / ; *\n ";
-    cin >> symbol ;
-    cout << "Second nombre ?\n";
-    cin >> second ;
+    std::string symbol ;
+    std::cout << "Premier nombre ?\n";
+    std::cin >> first ;
+    std::cout << "Symbole : + ; - / ; *\n ";
+    std::cin >> symbol ;
+    std::cout << "Second nombre ?\n";
+    std::cin >> second ;
 
     if (symbol == "+")
     {
@@ -30,7 +28,7 @@ int main()
     {
         result = first / second ;
     }
-    cout << "Resultat : " << result << std::endl ;
+    std::cout << "Resultat : " << result << std::endl ;
 
    return 0;
 }

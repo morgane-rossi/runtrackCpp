@@ -1,11 +1,9 @@
 #include <iostream>
 #include <fmt/core.h>
 
-using namespace std;
-
 int main() {
     double a, b, c ;
-    cin >> a >> b >> c ;
+    std::cin >> a >> b >> c ;
     double maxi = a ;
     if (b > a)
     {

@@ -1,25 +1,23 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 int main()
 {
     double a ;
     do
     {
-        cout << "donnez un nombre positif : ";
-        cin >> a ;
+        std::cout << "donnez un nombre positif : ";
+        std::cin >> a ;
         {
             if (a < 0)
             {
-                cout << "svp positif\n";
+                std::cout << "svp positif\n";
             }
             else
             {
-                cout << "sa racine carree est : " << sqrt(a) <<endl ;
+                std::cout << "sa racine carree est : " << sqrt(a) << std::endl ;
             }
-        }    
+        }
     }
     while (a != 0);
 

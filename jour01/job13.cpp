@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
     std::cout << "Saisissez un entier\n";
     int n ;

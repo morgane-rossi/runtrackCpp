@@ -1,13 +1,11 @@
 #include <iostream>
 #include <fmt/core.h>
 
-using namespace std;
-
 int main() {
 
     int n, m ;
     std::cout << "Saisissez n";
-    std :: cin >> n ;
+    std::cin >> n ;
     std::cout << "Saisissez m";
     std::cin >> m ;
     std::cout << "Avant échange : \n";

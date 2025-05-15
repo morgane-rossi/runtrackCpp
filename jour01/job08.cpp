@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
     int a ;
     std::cout << "Veuillez rentrer une année\n" ;
-    cin >> a ;
+    std::cin >> a ;
 
     if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0)
     {

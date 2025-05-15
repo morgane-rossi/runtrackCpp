@@ -1,0 +1,9 @@
+char c = '\x01';
+short int p = 10 ;
+
+x = p + 3
+type : short int
+valeur : 13
+
+y = c + 1
+

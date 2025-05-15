@@ -1,14 +1,12 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int n ;
     do
     {
-        cout << "donnez un nombre > 0\n" ;
-        cin >> n ;
+        std::cout << "donnez un nombre > 0\n" ;
+        std::cin >> n ;
     }
     while(n > 0);
 

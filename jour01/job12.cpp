@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fmt/core.h>
 
-using namespace std;
-
 int main() {
 
     double somme ;

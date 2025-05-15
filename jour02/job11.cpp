@@ -1,8 +1,5 @@
-
 #include <iostream>
 #include <cmath>
-
-using namespace std;
 
 int factorielle(int n)
 {
@@ -14,16 +11,15 @@ int factorielle(int n)
     {
         return n * factorielle(n-1);
     }
-
 }
 
 int main()
 {
     int n ;
-    cout << "Saisissez un nombre entier\n";
-    cin >> n ;
+    std::cout << "Saisissez un nombre entier\n";
+    std::cin >> n ;
     int resultat = factorielle(n);
-    cout << resultat << endl ;
+    std::cout << resultat << std::endl ;
 
    return 0;
 }

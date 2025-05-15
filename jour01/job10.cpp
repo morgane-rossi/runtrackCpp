@@ -1,13 +1,11 @@
 #include <iostream>
 #include <fmt/core.h>
 
-using namespace std;
-
 int main() {
 
     double prix_carottesHT, poidsCarottes ;
     std::cout << "Veuillez saisir un prix HT";
-    std :: cin >> prix_carottesHT ;
+    std::cin >> prix_carottesHT ;
     std::cout << "Veuillez saisir la quantité en kilogrammes";
     std::cin >> poidsCarottes ;
 
